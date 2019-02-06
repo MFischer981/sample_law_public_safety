@@ -1,0 +1,390 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+nav {
+    display: block;
+    width: 100%;
+    position: fixed;
+    background: rgb(245, 245, 245);
+    top: 0;
+    z-index: 100;
+}
+
+img#logo {
+    height: 61px;
+    display: inline-block;
+    float: left;
+    margin: 20px;
+}
+
+nav a {
+    margin: 20px 0; 
+    display: inline-block;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6em;
+    padding: 10px 20px 14px;
+    text-decoration: none;
+    color: rgb(25, 58, 114);
+    transition: .2s;
+}
+
+nav a:hover {
+    background: rgb(25, 58, 114);
+    color: rgb(245, 245, 245);
+}
+
+header {
+    display: block;
+    background: url("https://images.pexels.com/photos/532001/pexels-photo-532001.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header .wrapper {
+    display: block;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 180px 0 79px;
+
+}
+
+header .inner {
+    display: block;
+    background: rgba(19, 43, 83, 0.85);
+    padding: 60px;
+}
+
+header .wrapper h1 {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 6em;
+line-height: 1em;
+color: white;
+margin: 0;
+max-width: 800px;
+}
+
+header .wrapper h2 {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 3em;
+line-height: 1em;
+color: white;
+margin: 0;
+}
+
+header .wrapper p {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 1em;
+    color: white;
+    margin: 0;
+    max-width: 600px;
+}
+
+header .wrapper .space {
+    display: block;
+    height: 40px;
+}
+
+header .wrapper a {
+    display: inline-block;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 1em;
+    color: white;
+    margin: 0;
+    padding: .4em 1em .6em;
+    border: 3px white solid;
+    text-decoration: none;
+    border-radius: 40px;
+}
+
+header .wrapper a:hover {
+    background: rgb(245, 245, 245);
+    color: rgb(49, 51, 54);
+}
+
+.photo_banner {
+    display: block;
+    width: 100%;
+    margin: 0;
+    background: url('photo_banner.png');
+    background-size: cover;
+}
+
+.photo_banner#light {
+    display: block;
+    width: 100%;
+    margin: 0;
+    background: url('photo_banner_light.png');
+    background-size: cover;
+}
+
+.photo_banner .inner {
+    display: block;
+    padding: 0 60px;
+}
+
+.photo_banner .wrapper {
+    display: block;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+
+.photo_banner .wrapper h1 {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 5em;
+line-height: 1em;
+color: rgb(255, 146, 16);
+margin: 0;
+max-width: 600px;
+}
+
+.photo_banner .wrapper h2 {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+    line-height: 1em;
+    color: white;
+    margin: 0;
+    max-width: 600px;
+}
+
+.photo_banner#light .wrapper h1 {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 5em;
+line-height: 1em;
+color: rgb(25, 58, 114);
+margin: 0;
+max-width: 600px;
+}
+
+.photo_banner#light .wrapper h2 {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+    line-height: 1em;
+    color: rgb(49, 51, 54);
+    margin: 0;
+    max-width: 600px;
+}
+
+.photo_banner .wrapper .space {
+    display: block;
+    height: 40px;
+}
+
+.photo_banner .wrapper a {
+    display: inline-block;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 1em;
+    color: white;
+    margin: 0;
+    padding: .4em 1em .6em;
+    border: 3px white solid;
+    text-decoration: none;
+    border-radius: 40px;
+}
+
+.photo_banner .wrapper a:hover {
+    background: rgb(245, 245, 245);
+    color: rgb(49, 51, 54);
+}
+
+.photo_banner#light .wrapper a {
+    display: inline-block;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 1em;
+    color: rgb(49, 51, 54);
+    margin: 0;
+    padding: .4em 1em .6em;
+    border: 3px rgb(49, 51, 54) solid;
+    text-decoration: none;
+    border-radius: 40px;
+}
+
+.photo_banner#light .wrapper a:hover {
+    background: rgb(49, 51, 54);
+    color: rgb(245, 245, 245);
+}
+
+article {
+    display: block;
+    background: url('background.png');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+article .wrapper {
+    display: block;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+article .inner {
+    display: block;
+    background: rgba(68, 68, 68, 0.85);
+    padding: 60px;
+}
+
+article .wrapper h1 {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 3em;
+line-height: 1em;
+color: rgb(255, 146, 16);
+margin: 0;
+max-width: 600px;
+}
+
+article .wrapper h2 {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 2em;
+line-height: 1em;
+color: white;
+margin: 10px 0;
+max-width: 600px;
+}
+
+article .wrapper p {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 1em;
+    color: white;
+    margin: 0;
+    max-width: 1200px;
+}
+
+article .wrapper .space {
+    display: block;
+    height: 40px;
+}
+
+article .wrapper a {
+    display: inline-block;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 1em;
+    color: white;
+    margin: 0;
+    padding: .4em 1em .6em;
+    border: 3px white solid;
+    text-decoration: none;
+    border-radius: 40px;
+}
+
+article .wrapper a:hover {
+    background: rgb(245, 245, 245);
+    color: rgb(49, 51, 54);
+}
+
+section {
+    display: block;
+    background: url('background_light.png');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section .wrapper {
+    display: block;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+section .inner {
+    display: block;
+    background: rgba(243, 243, 243, .85);
+    padding: 60px;
+}
+
+section .wrapper h1 {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 3em;
+line-height: 1em;
+color: rgb(25, 58, 114);
+margin: 0;
+max-width: 600px;
+}
+
+section .wrapper h2 {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 2em;
+line-height: 1em;
+color: rgb(49, 51, 54);
+margin: 10px 0;
+max-width: 600px;
+}
+
+section .wrapper p {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 1em;
+    color: rgb(49, 51, 54);
+    margin: 0;
+    max-width: 1200px;
+}
+
+section .wrapper .space {
+    display: block;
+    height: 40px;
+}
+
+section .wrapper a {
+    display: inline-block;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 1em;
+    color: rgb(49, 51, 54);
+    margin: 0;
+    padding: .4em 1em .6em;
+    border: 3px rgb(49, 51, 54) solid;
+    text-decoration: none;
+    border-radius: 40px;
+}
+
+section .wrapper a:hover {
+    background: rgb(49, 51, 54);
+    color: rgb(245, 245, 245);
+}
