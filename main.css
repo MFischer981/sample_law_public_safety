@@ -20,7 +20,7 @@ img#logo {
 }
 
 nav a {
-    margin: 20px 0; 
+    margin: 20px 0;
     display: inline-block;
     font-family: acumin-pro, sans-serif;
     font-weight: 400;
@@ -60,23 +60,23 @@ header .inner {
 
 header .wrapper h1 {
     font-family: itc-avant-garde-gothic-pro, sans-serif;
-font-weight: 700;
-font-style: normal;
-font-size: 6em;
-line-height: 1em;
-color: white;
-margin: 0;
-max-width: 800px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 6em;
+    line-height: 1em;
+    color: white;
+    margin: 0;
+    max-width: 800px;
 }
 
 header .wrapper h2 {
     font-family: itc-avant-garde-gothic-pro, sans-serif;
-font-weight: 700;
-font-style: normal;
-font-size: 3em;
-line-height: 1em;
-color: white;
-margin: 0;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+    line-height: 1em;
+    color: white;
+    margin: 0;
 }
 
 header .wrapper p {
@@ -146,13 +146,13 @@ header .wrapper a:hover {
 
 .photo_banner .wrapper h1 {
     font-family: itc-avant-garde-gothic-pro, sans-serif;
-font-weight: 700;
-font-style: normal;
-font-size: 5em;
-line-height: 1em;
-color: rgb(255, 146, 16);
-margin: 0;
-max-width: 600px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5em;
+    line-height: 1em;
+    color: rgb(255, 146, 16);
+    margin: 0;
+    max-width: 600px;
 }
 
 .photo_banner .wrapper h2 {
@@ -168,13 +168,13 @@ max-width: 600px;
 
 .photo_banner#light .wrapper h1 {
     font-family: itc-avant-garde-gothic-pro, sans-serif;
-font-weight: 700;
-font-style: normal;
-font-size: 5em;
-line-height: 1em;
-color: rgb(25, 58, 114);
-margin: 0;
-max-width: 600px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5em;
+    line-height: 1em;
+    color: rgb(25, 58, 114);
+    margin: 0;
+    max-width: 600px;
 }
 
 .photo_banner#light .wrapper h2 {
@@ -255,24 +255,24 @@ article .inner {
 
 article .wrapper h1 {
     font-family: itc-avant-garde-gothic-pro, sans-serif;
-font-weight: 700;
-font-style: normal;
-font-size: 3em;
-line-height: 1em;
-color: rgb(255, 146, 16);
-margin: 0;
-max-width: 600px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+    line-height: 1em;
+    color: rgb(255, 146, 16);
+    margin: 0;
+    max-width: 600px;
 }
 
 article .wrapper h2 {
     font-family: itc-avant-garde-gothic-pro, sans-serif;
-font-weight: 700;
-font-style: normal;
-font-size: 2em;
-line-height: 1em;
-color: white;
-margin: 10px 0;
-max-width: 600px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 1em;
+    color: white;
+    margin: 10px 0;
+    max-width: 600px;
 }
 
 article .wrapper p {
@@ -333,24 +333,24 @@ section .inner {
 
 section .wrapper h1 {
     font-family: itc-avant-garde-gothic-pro, sans-serif;
-font-weight: 700;
-font-style: normal;
-font-size: 3em;
-line-height: 1em;
-color: rgb(25, 58, 114);
-margin: 0;
-max-width: 600px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+    line-height: 1em;
+    color: rgb(25, 58, 114);
+    margin: 0;
+    max-width: 600px;
 }
 
 section .wrapper h2 {
     font-family: itc-avant-garde-gothic-pro, sans-serif;
-font-weight: 700;
-font-style: normal;
-font-size: 2em;
-line-height: 1em;
-color: rgb(49, 51, 54);
-margin: 10px 0;
-max-width: 600px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 1em;
+    color: rgb(49, 51, 54);
+    margin: 10px 0;
+    max-width: 600px;
 }
 
 section .wrapper p {
